@@ -1,4 +1,4 @@
-import * as icon from './../css/icons.js';
+import * as icon from '../css/icons.js';
 import { fontList, platform } from './defaults.js';
 import { svgNameSpace } from './dom-utils.js';
 import { translator } from './main.js';

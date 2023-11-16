@@ -19,7 +19,7 @@ import {
   updateGithubInLocalStorage,
   v,
 } from './main.js';
-import * as icon from './../css/icons.js';
+import * as icon from '../css/icons.js';
 import Github from './github.js'; // github class
 
 const ghActionsInputSetters = [

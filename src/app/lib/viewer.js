@@ -34,7 +34,7 @@ import {
   platform,
   supportedVerovioVersions,
 } from './defaults.js';
-import * as icon from './../css/icons.js';
+import * as icon from '../css/icons.js';
 
 export default class Viewer {
   constructor(vrvWorker, spdWorker) {
