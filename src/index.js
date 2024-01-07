@@ -1,10 +1,12 @@
-const { app, BrowserWindow, Menu } = require('electron');
-const path = require('path');
+import { app, BrowserWindow, Menu } from 'electron'
+import * as path from 'path'
+import electronSquirrelStartup from 'electron-squirrel-startup'
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
-if (require('electron-squirrel-startup')) {
-  app.quit();
-}
+if (electronSquirrelStartup) app.quit()
 
 
 const createWindow = () => {
